@@ -1,0 +1,40 @@
+body {
+    background: #39e4bf;
+}
+
+.card {
+    border-width: 0;
+    transition: linear 0.2s;
+}
+.card:hover {
+    background: #ece9e9;
+}
+
+.card-icon {
+    position: relative;
+    width: 54px;
+    height: 54px;
+    left: 50%;
+    background: dodgerblue;
+    border-radius: 5px;
+    transform: translateX(-50%);
+}
+.card-icon img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    transform: translate(-50%, -50%);
+}
+.card-outline {
+    border-width: 1px;
+    border-color: #5c3ceb;
+    background-color: #e7c76f;
+}
+
+.card-outline img {
+    width: 24px;
+    height: 24px;;
+}
